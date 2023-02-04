@@ -10,7 +10,7 @@ let allButtons = document.querySelectorAll('.submit');
 let getButtons = (e) => e.preventDefault();
 
 let changeForm = (e) => {
-    switchBtn.classList.add('is-gx');/* corregir aqui */
+    switchBtn.classList.add('is-gx');/* corregir aqui.*/
     setTimeout(function (){
         switchBtn.classList.remove('is-gx');
     }, 1500);
