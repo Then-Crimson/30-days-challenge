@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Task Management Dashboard UI</title>
+</head>
+<body>
+    <div class="task-manager">
+        <!-- left bar starts -->
+        <div class="left-bar">
+            <div class="upper-part">
+                <div class="actions">
+                    <div class="circle"></div>
+                    <div class="circle-2"></div>
+                </div>
+            </div>
+
+        <!-- left content starts -->
+        <div class="left-content">
+            <ul class="action-list">
+                <li class="item">
+                    <img src="svg/inbox.svg" alt="" class="feather feather-inbox">
+                    <span>Inbox</span>
+                </li>
+
+                <li class="item">
+                    <img src="svg/star.svg" alt="" class="feather feather-star">
+                    <span>Today</span>
+                </li>
+
+                <li class="item">
+                    <img src="svg/calendar.svg" alt="" class="feather feather-calendar">
+                    <span>Upcoming</span>
+                </li>
+
+                <li class="item">
+                    <img src="svg/hash.svg" alt="" class="feather feather-hash">
+                    <span>Important</span>
+                </li>
+
+                <li class="item">
+                    <img src="svg/user.svg" alt="" class="feather feather-users">
+                    <span>Meetings</span>
+                </li>
+
+                <li class="item">
+                    <img src="svg/trash-2.svg" alt="" class="feather feather-thash">
+                    <span>Trash</span>
+                </li>
+            </ul>
+            <ul class="category-list">
+                <li class="item">
+                    <img src="svg/user.svg" alt="" class="feather feather-users">
+                    <span>Family</span>
+                </li>
+                <li class="item">
+                    <img src="svg/sun.svg" alt="" class="feather feather-sun">
+                    <span>Vacation</span>
+                </li>
+                <li class="item">
+                    <img src="svg/trending-up.svg" alt="" class="feather feather-trending-up">
+                    <span>Festival</span>
+                </li>
+                <li class="item">
+                    <img src="svg/zap.svg" alt="" class="feather feather-zap">
+                    <span>Concerts</span>
+                </li>
+            </ul>
+        </div>
+        <!-- left content ends -->
+        </div>
+        <!-- left bar ends -->
+
+        <!-- page content starts -->
+        <div class="page-content">
+            <div class="header">Today Task</div>
+            <!-- content categories starts -->
+            <div class="content-categories">
+
+                <div class="label-wrapper">
+                    <input type="radio" name="nav" id="opt-1" class="nav-item">
+                    <label for="opt-1" class="category">All</label>
+                </div>
+                
+                <div class="label-wrapper">
+                    <input type="radio" name="nav" id="opt-2" class="nav-item">
+                    <label for="opt-2" class="category">Important</label>
+                </div>
+
+                <div class="label-wrapper">
+                    <input type="radio" name="nav" id="opt-3" class="nav-item">
+                    <label for="opt-3" class="category">Notes</label>
+                </div>
+
+                <div class="label-wrapper">
+                    <input type="radio" name="nav" id="opt-4" class="nav-item">
+                    <label for="opt-4" class="category">Links</label>
+                </div>
+                
+            </div>
+            <!-- content categories ends -->
+
+            <!-- task wrapper starts -->
+            <div class="task-wrapper">
+                <div class="task">
+                    <input type="checkbox" id="item-1" class="task-item">
+                    <label for="item-1">
+                        <span class="label-text">Dashboard Design Implementation</span>
+                    </label>
+                    <span class="tag approved">Approved</span>
+                </div>
+
+                <div class="task">
+                    <input type="checkbox" id="item-2" class="task-item">
+                    <label for="item-2">
+                        <span class="label-text">create a userflow</span>
+                    </label>
+                    <span class="tag progress">In Progress</span>
+                </div>
+            </div>
+            <!-- task wrapper ends -->
+        </div>
+
+        <!-- page content ends -->
+
+    </div>
+</body>
+</html>
