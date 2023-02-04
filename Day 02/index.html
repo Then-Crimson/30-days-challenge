@@ -8,9 +8,7 @@
     <title>Inicio de sesión con neuromorfismo</title>
 </head>
 <body>
-    <div class="context"> 
-        
-    
+
         <div class="card1">
             <div class="container">  
                      
@@ -46,25 +44,57 @@
         </div>
     
         
+    </div> -->
+
+    <div class="main">
+       <div class="container a-container" id="a-container">
+        <form action="" class="form" id="a-form">
+            <h2 class="title">Crear Cuenta</h2>
+            <div class="form__icons">
+                <img src="./images.svg/facebook.svg" alt="" class="form__icon">
+                <img src="./images.svg/twitter.svg" alt="" class="form__icon">
+                <img src="./images.svg/instagram.svg" alt="" class="form__icon">
+            </div>
+
+           <span class="form__span">Tambien puedes usar tu email para registrarte</span> 
+           <input type="text" class="form__input" placeholder="name">
+           <input type="text" class="form__input" placeholder="email">
+           <input type="password" class="form__input" placeholder="password">
+           <button class="button submit">Sign Up</button>
+        </form>
+       </div>
+
+       <div class="container b-container" id="b-container">
+        <form action="" class="form" id="b-form">
+            <h2 class="title">Sign in to Website</h2>
+            <div class="form__icons">
+                <img src="./images.svg/facebook.svg" alt="" class="form__icon">
+                <img src="./images.svg/twitter.svg" alt="" class="form__icon">
+                <img src="./images.svg/instagram.svg" alt="" class="form__icon">
+            </div>
+            <span class="form__span">Tambien puedes usar tu email </span> 
+           <input type="text" class="form__input" placeholder="email">
+           <input type="password" class="form__input" placeholder="password">
+           <a class="form__link">Forot your password</a>
+           <button class="button submit">Sign In</button>
+        </form>
+       </div>
+
+       <div class="switch " id="swith-cnt">
+        <div class="switch__circle"></div>
+        <div class="switch__circle switch__circle--t"></div>
+        <div class="switch__container" id="switch-c1">
+            <h2 class="title">Welcome Back!</h2>
+            <p class="description">To keep connected with us login with your personal info</p>
+            <button class="switch__button button switch-btn">Sign In</button>
+        </div>
+        <div class="switch__container is-hidden" id="switch-c2">
+            <h2 class="switch__title title">Hello friend!</h2>
+            <p class="description">Enter your personal details and start you journey with us</p>
+            <button class="switch__button button switch-btn">Sign Up</button>
+        </div>
+       </div>
     </div>
-
-
-
-    <div class="area" >
-            <ul class="circles">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-            </ul>
-            
-    </div >
-    
+    <script src="main.js"></script>
 </body>
 </html>
